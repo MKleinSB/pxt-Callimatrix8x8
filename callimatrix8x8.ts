@@ -68,6 +68,15 @@ namespace callimatrix {
         strip.show()
         }
 
+    /**
+    * Löscht alle Neopixel. "Änderungen anzeigen" aufrufen!
+    */
+    //% blockId="callimatrix_del" block="lösche Matrix" blockGap=8
+    //% weight=80
+    //% parts="neopixel"
+   export function callimatrix_del() {
+    strip.showColor(neopixel.colors(NeoPixelColors.Black))
+    }
 
     /**
     * Konvertiert Rot-, Grün- und Blauanteil in eine RGB Farbe
