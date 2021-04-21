@@ -10,7 +10,8 @@ Dieses Repository kann als **Erweiterung** in MakeCode hinzugefügt werden.
 * klicke auf **Erweiterungen** unter dem Zahnrad-Menü
 * nach **mkleinsb/pxt-callimatrix8x8** suchen und importieren
 
-![Eine gerenderte Ansicht der Blöcke](https://github.com/mkleinsb/pxt-callimatrix8x8/raw/master/1.png)
+![Ergebnis](https://github.com/mkleinsb/pxt-callimatrix8x8/raw/master/2.png)
+![Programm](https://github.com/mkleinsb/pxt-callimatrix8x8/raw/master/1.png)
 
 #### Metadaten (verwendet für Suche, Rendering)
 
