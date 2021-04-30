@@ -18,7 +18,7 @@ namespace callimatrix {
 
     /**
      */
-    //% block="matrix8x8"
+    //% block="Bild8x8"
     //% imageLiteral=1
     //% imageLiteralColumns=8
     //% imageLiteralRows=8
@@ -29,6 +29,16 @@ namespace callimatrix {
         return im
     }
 
+    //% help=images/icon-image
+    //% blockId=cimage block="Bildsymbol %i"
+    //% i.fieldEditor="imagedropdown"
+    //% i.fieldOptions.columns="5"
+    //% i.fieldOptions.width="380"
+    //% i.fieldOptions.maxRows=4
+     //% weight=90
+    export function iImage(i: IconNames): Image {
+     return images.iconImage(i)
+    }
 
     //% block="zeige Farbe %color an x | %x |y | %y || Helligkeit %brightnes |\\%"
     //% color.shadow="colorNumberPicker"  color.defl=0xff0000
