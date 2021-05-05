@@ -85,7 +85,7 @@ namespace callimatrix {
     //% weight=80
     //% parts="neopixel"
    export function callimatrix_del() {
-    strip.showColor(neopixel.colors(NeoPixelColors.Black))
+    strip.clear()
     }
 
     /**
